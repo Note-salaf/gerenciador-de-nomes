@@ -1,3 +1,4 @@
+
 📋 Gerenciador de Nomes
 
 Demo:
@@ -5,7 +6,7 @@ Demo:
 Aplicação web desenvolvida em JavaScript puro (ES Modules) para gerenciamento de nomes com persistência em localStorage.
 
 O projeto foi estruturado de forma modular, separando responsabilidades entre estado, interface, armazenamento e controle principal, como parte de um processo de refatoração e organização de código.
-
+```text
 🚀 Funcionalidades
 
 ✅ Adicionar nomes à lista
@@ -28,7 +29,7 @@ gerenciador-de-nomes/
     ├── state.js     # Gerenciamento do estado (array de nomes)
     ├── storage.js   # Integração com localStorage
     └── ui.js        # Manipulação da interface (DOM)
-
+```
 🛠 Tecnologias Utilizadas
 
 HTML5
@@ -55,5 +56,6 @@ Melhorar organização e escalabilidade
  Deploy com GitHub Pages
 
 🧑‍💻 Autor
+
 
 Projeto desenvolvido para fins de estudo e prática em JavaScript moderno
