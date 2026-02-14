@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de nomes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="card-container">
+            <header>
+                <h1>Gerenciador de Nomes</h1>
+                <p>Adicione e gerencie sua lista de ususários.</p>
+            </header>
+            <section class="entrada">
+                <label for="inputEntrada">Nome</label>
+                <input type="text" class="inputEntrada" placeholder="Digite um nome">
+                <button class="btnAdiciona">Adicionar nome</button>
+            </section>
+            <section class="excluir">
+                
+                <label for="selectNomes">Selecionar nome para exclusão</label>
+                <select name="" id="selectNomes">
+                    <label for="selectNomes"></label>
+                    <option value="" disabled selected>Selecione um nome</option>
+                    <option value="Joana">Joana</option>
+                </select>
+                <button class="btnExclui">Excluir nome</button>
+                <button class="btnExcluiTodos">Excluir lista</button>
+            </section>
+        </div>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

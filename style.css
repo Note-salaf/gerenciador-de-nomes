@@ -1,0 +1,125 @@
+:root {
+    --cor-texto-principal: #3c4c5f;
+    --cor-fundo-principal: #ecedf1;
+    --cor-fundo-card: #fefefe;
+    --cor-borda: #d2d2d4;
+    --cor-fundo-btnAdiciona: #2f79f7;
+    --cor-btnAdiciona-focus: #0d64fa;
+    --cor-fundo-btnsExclui: #ee414c;
+    --cor-texto-btns: #fefdfd;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo-principal);
+}
+
+.card-container {
+    background-color: var(--cor-fundo-card);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+    color: var(--cor-texto-principal);
+    padding: 0 50px;
+    
+}
+
+header p {
+    color: var(--cor-texto-principal);
+    text-align: center;
+    border-bottom: solid 1px var(--cor-borda);
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.entrada {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    
+}
+
+.entrada label {
+    margin-top: 20px;
+    color: var(--cor-texto-principal);
+    
+}
+
+.entrada input {
+    height: 2.5rem;
+    border: solid 1px var(--cor-borda);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.entrada input:focus {
+    outline: none;
+    border: 1px solid var(--cor-fundo-btnAdiciona);
+
+}
+
+.entrada button {
+    background-color: var(--cor-fundo-btnAdiciona);
+    color: var(--cor-texto-btns);
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.entrada button:hover {
+    background-color: var(--cor-btnAdiciona-focus);
+}
+
+.excluir {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.excluir label {
+    color: var(--cor-texto-principal);
+}
+.excluir select {
+    height: 2.5rem;
+    border: solid 1px var(--cor-borda);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.excluir select:focus {
+    outline: none;
+    border: 1px solid var(--cor-fundo-btnAdiciona);
+}
+
+.excluir button {
+    background-color: var(--cor-fundo-btnsExclui);
+    color: var(--cor-texto-btns);
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
