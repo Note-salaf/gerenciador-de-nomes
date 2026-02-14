@@ -1,7 +1,7 @@
 ```text
 📋 Gerenciador de Nomes
 
-Demo:
+Demo: https://note-salaf.github.io/gerenciador-de-nomes/
 
 Aplicação web desenvolvida em JavaScript puro (ES Modules) para gerenciamento de nomes com persistência em localStorage.
 
@@ -62,6 +62,7 @@ Melhorar organização e escalabilidade
 
 Projeto desenvolvido para fins de estudo e prática em JavaScript moderno
 ```
+
 
 
 
