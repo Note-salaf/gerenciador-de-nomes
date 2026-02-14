@@ -31,6 +31,7 @@ gerenciador-de-nomes/
     └── ui.js        # Manipulação da interface (DOM)
 ```
 🛠 Tecnologias Utilizadas
+
 ```text
 HTML5
 CSS3
@@ -60,4 +61,5 @@ Melhorar organização e escalabilidade
 
 
 Projeto desenvolvido para fins de estudo e prática em JavaScript moderno
+
 
